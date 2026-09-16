@@ -1,18 +1,17 @@
-# Brix People HR V2 — QA Report
+# QA Report — Brix People HR V 1.5
 
-- Node syntax check: PASS
-- data.json parse: PASS
-- config.json parse: PASS
-- Duplicate HTML IDs: 0
-- ZIP integrity: PASS
-- Login/logout + demo access: implemented
-- Café/restaurant terminology: implemented
-- Nationality in cards/profiles/search/reports: implemented
-- Two active employee HR warnings with reasons: implemented (Omar, Samir)
-- Onboarding pipeline with three candidates at different phases: implemented
-- Trial, offer, documents, visa, medical/EID, official joining steps: implemented
-- Employee/document expiry monitoring: implemented
-- Attendance snapshot and people analytics: implemented
-- Responsive navigation: implemented
+Checked 16 Sep 2026.
 
-Static demo security boundary remains documented in SECURITY.md.
+- `node --check app.js`: PASS
+- `node --check boot.js`: PASS
+- JSON parse (`data.json`, `config.json`): PASS
+- Duplicate HTML IDs: none
+- Restaurant-only terminology scan: no cabin crew, airline, aviation, flight or flying references
+- Trial feedback: ratings, score, manager, comments, salary recommendation, decision and follow-up included
+- Trial decision updates pipeline state; failed trial holds downstream onboarding steps
+- Demo trial assessments persist via localStorage
+- Employee creation blocks duplicate Staff ID and duplicate entered email
+- Existing employee email, nationality, leave/PH balances, warnings, recognition, documents and manager snapshot retained
+- Attendance date lower bound remains 01 Sep 2026
+
+Note: this is a browser demo, not a production HR data store. Browser-only authentication/localStorage are not appropriate for confidential live employee records.

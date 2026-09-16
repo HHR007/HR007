@@ -1,14 +1,9 @@
-# Brix People HR — V2 Demo
-
-Static café HR operations prototype inspired by modern HCM patterns.
+# Brix People HR V 1.5
+Restaurant and café HR operations demo.
 
 ## Demo access
-- Email: `hr@brix.demo`
-- Password: `Brix2026`
-- Or click **Enter demo workspace**.
+- Email: hr@brix.demo
+- Password: Brix2026
 
-## Included
-Dashboard, employee directory, nationality, employee warnings, document expiry, onboarding pipeline, attendance snapshot, reports, add employee/candidate, login/logout.
-
-## Important
-This is a front-end demo. Do not use it to store real employee PII, visa/passport data, passwords or HR records. A production HR system needs server-side authentication, role-based access, audit logs, encryption, backups, and a protected database.
+## V 1.5
+Adds manager trial feedback surveys, scored restaurant-service criteria, pass/fail/second-trial decisions, salary recommendations, comments and follow-up dates. Trial decisions update the onboarding pipeline. Feedback persists in localStorage for the demo. Employee creation now prevents duplicate Staff IDs and duplicate entered emails.

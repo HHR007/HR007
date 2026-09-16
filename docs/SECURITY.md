@@ -1,2 +1,2 @@
-# Security boundary
-This package is a browser-only demonstration. Demo credentials are intentionally visible in client code and are not secure authentication. Production use requires server-side identity, role-based permissions, encrypted storage, audit logging, secure document handling, session management, backups, retention controls, and applicable privacy/employment compliance.
+# Security note
+This is a front-end HR demo. Do not store real confidential employee, passport, visa, salary, medical, disciplinary or identity data in this static build. A production deployment needs server-side authentication, role-based permissions, audit logs, encrypted storage, backups, secure document access, and authoritative database validation.
