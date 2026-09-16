@@ -1,6 +1,14 @@
-# CrewHR V1
-A static HR dashboard concept adapted from the CrewMatch visual direction.
+# Brix People HR — V2 Demo
 
-Features: employee directory, joining dates, active/expiring/expired contract warnings, expiry monitor, employee profile modal, search/filter, add employee demo, responsive layout.
+Static café HR operations prototype inspired by modern HCM patterns.
 
-This is a front-end prototype. Production HR records require authenticated server-side storage and appropriate access controls.
+## Demo access
+- Email: `hr@brix.demo`
+- Password: `Brix2026`
+- Or click **Enter demo workspace**.
+
+## Included
+Dashboard, employee directory, nationality, employee warnings, document expiry, onboarding pipeline, attendance snapshot, reports, add employee/candidate, login/logout.
+
+## Important
+This is a front-end demo. Do not use it to store real employee PII, visa/passport data, passwords or HR records. A production HR system needs server-side authentication, role-based access, audit logs, encryption, backups, and a protected database.
